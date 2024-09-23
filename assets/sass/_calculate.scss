@@ -1,0 +1,74 @@
+.calculate_title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.calculate_title h2{
+font-size: 34px;
+font-weight: 400;
+line-height: 37.4px;
+text-align: left;
+color: $zero;
+}
+
+.c_card_left{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.c_card_left p{
+font-size: 14px;
+font-weight: 400;
+line-height: 15.4px;
+text-align: left;
+color: #79A6C3;
+width: 60%;
+}
+
+.c_card_left h3{
+font-size: 22px;
+font-weight: 700;
+line-height: 24.2px;
+text-align: left;
+color: $zero;
+}
+
+
+.c_card{
+    display: flex;
+    align-items: center;
+    width: 615px;
+    height: 166px;
+    border-radius: 10px;
+    background-color: #F0F4F8;
+    padding: 15px;
+}
+
+.c_cards{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    padding: 0 60px;
+}
+
+@media(max-width:1400px){
+    
+.c_cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+}
+
+@media(max-width:700px){
+    .c_card p{
+        display: none;
+    }
+}
+
+@media(max-width:500px){
+    .c_card h3{
+        display: none;
+}
+}

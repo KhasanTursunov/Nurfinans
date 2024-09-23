@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.header{
+    background-color: #F0F4F8;
+}
 
 .navbar1{
     padding: 15px;
@@ -102,6 +105,7 @@ border: none;
     .menu, .logout{
         display: none;
     }
+
 }
 
 @media(max-width:1200px){

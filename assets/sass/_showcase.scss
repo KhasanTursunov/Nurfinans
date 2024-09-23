@@ -1,0 +1,97 @@
+.showcase{
+    margin-bottom: 50px;
+    background-color: #F0F4F8;
+    padding: 30px;
+}
+
+.showcase_left_and_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase_left h1{
+font-size: 44px;
+font-weight: 700;
+line-height: 48.4px;
+text-align: left;
+color: $zero;
+width: 80%;
+}
+
+.showcase_left span{
+font-size: 44px;
+font-weight: 700;
+line-height: 48.4px;
+color: $zerozero;
+}
+
+.showcase_left h3{
+font-size: 18px;
+font-weight: 400;
+line-height: 23.4px;
+text-align: left;
+color: $zero;
+}
+
+.showcase_button{
+width: 240px;
+height: 68px;
+border-radius: 28px 0px;
+background-color: $zerozero;
+font-size: 16px;
+font-weight: 400;
+line-height: 17.6px;
+text-align: center;
+color: $f;
+border: none;
+transition: 0.5s linear;
+}
+
+.showcase_button:hover{
+color: $zerozero;
+background-color: transparent;
+border: 1px solid $zerozero;
+}
+
+.showcase_left{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+
+@media(max-width:1000px){
+    .showcase_left_and_right{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media(max-width:520px){
+    
+.showcase_left h1{
+font-size: 38px;
+font-weight: 700;
+line-height: 48.4px;
+text-align: left;
+color: $zero;
+width: 80%;
+}
+.showcase_left img{
+    width: 100%;
+}
+
+}
+
+@media(max-width:400px){
+        
+.showcase_left h1{
+font-size: 32px;
+font-weight: 700;
+line-height: 48.4px;
+text-align: left;
+color: $zero;
+width: 80%;
+}
+}
